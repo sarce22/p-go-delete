@@ -13,7 +13,7 @@ func main() {
 
 	// Configuración de la ruta /hola
 	http.HandleFunc("/hola", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("¡Hola Mundo! 🌎"))
+		w.Write([]byte("¡Hola Mundo, nice! 🌎"))
 	})
 
 	log.Println("🚀 Servidor corriendo en http://localhost:8080")
